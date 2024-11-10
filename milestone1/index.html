@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+
+        <!-- left section -->
+         <div class="left-section">
+            <img src="profile pic.jpg" alt="Profile Picture" class="profile-picture">
+            <section id="objective">
+                <h3 style="color:blue ">Career Objective</h3>
+                 
+                <p style="text-align: justify;hyphens: auto;">To secure an employment oppertuity with a progressive organisation,where I can utilize my
+                    professional skills and knowledge to the maximum and value in the 
+                    growth of the organisation.
+
+                    Seeking an oppertuity as a fresh candidate to start my professional career.
+                </p>
+            </section>
+            <section id="certificatioin">
+                <h3 style="color:blue">Certification</h3>
+                <p><b>Degree</b> From University of Karachi</p>
+                <p><b>Artificial Intelligence, web 3.0 & Metaverse:</b> From Governor House Karachi(Ongoing)</p>
+
+            </section> 
+         </div>
+           <!-- Right section -->
+          <div class="right-section">
+            <h1>Static Interactive resume</h1>
+            <!-- personal information --> 
+              <section id="personal-info">
+                <h3>Personal Information</h3>
+                <p><b>Name:</b>Syed Muhammad Shabbir</p>
+                <p><b>Contact #:</b>0321-2175214</p>
+                <p><b>Email:</b><a href="mailto:smshabbir2001@yahoo.com"> smshabbir2001@yahoo.com</a></p>
+                <p><b>Linkedin:</b></p>
+             </section>
+
+             <!-- Education Section -->
+               <section id="education">
+                <h3>Education</h3> 
+                <p><b>Masters:</b>M.A in Islamic Studies with Computer Technology From University of Karachi</p>
+                <p><b>Bachelors:</b>B.A(Hons) in Islamic Studies with Computer Technology From University of Karachi</p>
+                <p><b>Intermediate:</b>Pre-Medical, From Govt.College for Men</p>
+                <p><b>Matriculation:</b>Science, From Delhi Govt.Boys School, Karachi</p>
+
+               </section>
+               <section id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Ms Office</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script/ Typescript</li>
+                    <li>Communication Skills</li>
+                </ul>
+               </section> 
+               <!-- Work Experience Section -->
+                 <section id="work-experience">
+                    <h3>Work Experience</h3>
+                    <p>Seeking an oppertunity as a fresh candidate to start my professional career</p>
+                </section>
+                Button to toggle Skills Section
+                 <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+          </div>
+    </div>
+<script src="script.js"></script>  
+      <!-- <h1>Static Interactive Resume</h1> 
+    <form id="resume-form">
+        <fieldset>
+            <img src="download (2).jpg" alt="Profile" class="profile-picture">
+            <legend>Personal Informatio</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Username" required><br>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required><br>
+            <label for="email">Emai</label>
+            <input type="email" id="email" placeholder="Enter Your Email" required><br>
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone" placeholder="Enter Your Phone:Number" required>
+        </fieldset>
+        <fieldset>
+            <legend>Education </legend>
+            <label for="education">Education</label>
+           <textarea id="education" placeholder="Enter Your Education" rows="2" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Experince</legend>
+            <label for="experince">Experince:</label>
+            <textarea id="experince" placeholder="Enter Your Work Experince" rows="4" required></textarea>
+        </fieldset>
+        <fieldset>
+        <legend>Skills</legend>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" placeholder="Enter Your Work Skills" rows="4" required></textarea>
+            </fieldset>
+            <button type="submit"> <b>Generate Resume </b></button>
+    </form>
+    <br> 
+    <!---Dynamice && Edita Resume-->
+      <!-- <div id="resume-display" contenteditable="true">  -->
+     <!---Resume will be generated below-->
+      <!-- </div> 
+      <br>  -->
+     <!--Section for the shareable link and download option-->
+      <!-- <div id="shareable-link-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>Here is your unique link to veiw or edit your resume:</p>
+        <a href="#" id="shareable-link" target="_blank"></a>
+        <br> 
+         <button id="download-pdf"><b>Download as PDF</b></button> 
+      </div>  -->
+ <!-- <script src="script.js"></script>   -->
+</body>
+</html>

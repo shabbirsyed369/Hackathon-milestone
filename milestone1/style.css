@@ -1,0 +1,141 @@
+/* general style */
+
+body {
+    font-family: 'Ariel', sans-serif ;
+    margin: 0;
+    padding: 150px;
+    background-color:  #f4f4f4;
+}
+
+.resume-container {
+    display: flex ;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1 );
+}
+.left-section{
+    background-color: rgb(50, 167, 221);
+    color: blue;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #361036;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #4d1da7;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #361036;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+ul li {
+margin: 5px;
+}
+.right-section  {
+    padding: 20px;
+    width: 65%;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+button-hover {
+    background-color: aquamarine;
+}
+ h1 {
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: blue;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+#resume-display h2 {
+    color: black;
+}
